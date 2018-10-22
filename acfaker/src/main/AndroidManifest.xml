@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.reone.acfaker">
+
+    <application>
+        <activity
+            android:name=".ActivityFaker"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.Transparent" />
+    </application>
+</manifest>
